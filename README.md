@@ -3,14 +3,16 @@
 
 # Tại sao bạn nên học Go ? khám phá code - medium
 
-"Go sẽ trở thành ngôn ngữ server trong tương lai."
-“Go will be the server language of the future.” — Tobias Lütke, Shopify
+"Go sẽ trở thành ngôn ngữ server trong tương lai." — Tobias Lütke, Shopify
+
 Trong vài năm qua , đây là sự tăng trưởng mạnh mẽ của một ngôn ngữ lập trình mới : Go hay còn gọi là GoLang . Không gì có thể khiến một lập trình viên điên cuồng hơn là một ngôn ngữ mới , phải vậy không ?  Vì vậy, Tôi đã bắt đầu học Go khoảng 4 5 tháng trước và hiện tại tôi sẵn sàng để giới thiệu về việc tại sao tôi cần học Go.
-Tôi không phải là đang dạy bạn đâu , Bạn có thể biết cách viết "Hello World !!" trong bài báo này .Và có nhiều bài báo online khác viết về nó . Tôi sẽ giải thích về giai đoạn hiện tại của phần mềm máy tính và tại sao chúng ta cần ngôn ngữ mo ? bởi vì chúng ta sẽ không sinh ra giải pháp nếu không có bất cứ vấn đề nào xảy ra , đúng không ?
+Tôi không phải là đang dạy bạn  cách viết "Hello World !!" trong bài báo này .Và có nhiều bài báo online khác viết về nó . Tôi sẽ giải thích về giai đoạn hiện tại của phần mềm máy tính và tại sao chúng ta cần ngôn ngữ mới này ? bởi vì chúng ta sẽ không sinh ra giải pháp nếu không có bất cứ vấn đề nào xảy ra , đúng không ?
+
 ### Giới hạn phần cứng:
+
 Moore’s law đã thất bại.
 
-Bộ Pentium 4 vi xử lý đầu tiên với  3.0GHz đồng hồ tốc độ được giới thiệu từ năm 2004 bởi Intel , ngày nay , Chiếc Mackbook Pro 2006 của tôi có tốc độ là 2.9Ghz. Vì vậy , trải qua gần 1 thập kỷ ,  không có quá nhiều hiệu quả trong việc xử lý thôi.BBạn có thể thấy việc so sánh tăng sức mạnh xử lý với thời gian trong biểu đồ dưới đây.
+Bộ Pentium 4 vi xử lý đầu tiên với tốc độ 3.0GHz được giới thiệu từ năm 2004 bởi Intel , ngày nay , Chiếc Mackbook Pro 2016 của tôi có tốc độ là 2.9Ghz. Vì vậy , trải qua gần 1 thập kỷ ,  không có quá nhiều hiệu quả trong việc xử lý thôi.BBạn có thể thấy việc so sánh tăng sức mạnh xử lý với thời gian trong biểu đồ dưới đây.
 
 Từ biểu đồ trên bạn có thể thấy hiệu xuất của đơn luồng và tần số của bộ xử lý vẫn ổn định trong gần một thập kỷ.Nếu bạn đang nghĩ rằng việc thêm nhiều bóng bán dẫn là giải pháp, thì bạn đã sai. Điều này là do ở quy mô nhỏ hơn, một số tính chất lượng tử bắt đầu nổi lên (như đường hầm) và vì nó thực sự tốn nhiều tiền hơn để đặt nhiều bóng bán dẫn hơn (tại sao?) Và số bóng bán dẫn bạn có thể thêm vào mỗi đô la bắt đầu giảm.
 
